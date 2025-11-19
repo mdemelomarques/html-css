@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+@font-face {
+    font-family:minecraft;
+    src: url('../fontes/Minecraft.ttf');
+}
+@font-face {
+    font-family:poke;
+    src: url('../fontes/Pokemon\ Solid.ttf');
+}
+@font-face {
+    font-family: rdr2;
+    src: url(../fontes/WEST____.TTF);
+}
+@font-face {
+    font-family: bouncy;
+    src: url(../fontes/Bouncy-PERSONAL_USE_ONLY.otf);
+}
+@font-face {
+    font-family: anime;
+    src: url(../fontes/animeace2_reg.otf);
+}
+h1{
+    font-family: bouncy;
+}
+p{
+    font-family: anime;
+}
+.mine{
+    font-family: minecraft;
+}
+.rdr {
+    font-family: rdr2;
+}
+.poke{
+    font-family: poke;
+}

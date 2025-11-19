@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Microsoft-Fluentui-Emoji-Flat-Rabbit-Flat.512.png" type="image/x-icon">
+    <title>Formatações e Semânticas</title>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Nesse paragráfo usaremos duas formas de dar destaque, a tag &lt;b&gt; e a tag &lt;strong&gt;, quando eu <b>dou destaque</b>a uma palavra usando &lt;b&gt;, eu estou meramente mudando sua forma, mas o meu navegador não sabe que quero dar destaque aquele termo, é apenas uma mudança de visual, para não só mudar o visual, mas também dar significado para aquele texto, precisamos usar a tag &lt;strong&gt;, assim,,<strong>esse texto</strong> não fica só visualmente destacado, mas semanticamente também</p>
+
+    <h2>Itálico/ênfase</h2>
+    <p>A mesma coisa acontece com o itálico, podemps deixar um texto visualmente em itálico usando a tag &lt;i&gt; mas isso moeramente muda sua aparência:,<i>Veja minha aparẽncia</i>, mas o navegador não sabe que estou dando enfâse pra essa palavra, pra dar significado, usamos a tag &lt;em&gt;, e ela ganha não só forma, mas <em>significado.</em></p>
+
+    <h2>Tag &lt;mark&gt;</h2>
+    <p>Podemos passar um marca texto sobre um texto, com a tag mark, por padrão ele fica <mark>Amarelo</mark>, porém, com CSS, podemos mudar sua cor para, por exemplo <mark style="background-color:green;">verde</mark>.</p>
+
+    <h2>Tag &lt;small&gt;</h2>
+    <p><small>Com essa tag deixamos nosso texto bem pequenininho, ela é semântica também</small></p>
+
+    <h2>Tag &lt;big&gt;</h2>
+    <p>Era usada pra deixar um texto <big>levemente maior</big> hoje em dia está obsoleta, embora ainda funcione.</p>
+
+    <h2>Tag &lt;del&gt;</h2>
+    <p>Diz para o navegador que aquela palavra ali escrita, apesar de visivel, foi <del>deletada</del> e não deve ser considerada</p>
+
+    <h2>Tag &lt;ins&gt;</h2>
+    <p>Essa tag sublinha a palavra, seu significado é que aquele texto foi inserido <ins>depois</ins> do texto original, é uma nova adição, a tag &lt;u&gt; tem a mesma forma, mas não tem o <u>significado semântico da tag &lt;ins&gt;</u></p>
+
+    <h2>Tag &lt;sup&gt; e &lt;sub&gt;</h2>
+    <p>com a tag sub, nosso texto abrangido por ela fica acima da palavra, como numa equação matemática, por exemplo: X+2<sup>4+3-22</sup>, já a tag sub, faz com que o texto englobado fique abaixo, por exemplo o 2 em H<sub>2</sub>O</p>
+    
+    <h2>Tag &lt;pre&gt;</h2>
+    <p>Essa tag faz com que o texto apareça pré formatado, ou seja, da exata maneira que escrevemos no código, não importa como escrevamos, isso é bom pra blocos de código ou poesias <pre>
+        Rosas são vermelhas
+        Violetas são azuis
+        Essa foi a tag pre
+        Não sei rimar, não é minha praia</pre>
+    </pre></p>
+
+    <h2>Tag &lt;abbr&gt;</h2>
+    <p>É uma tag feita pra abreviações, colocando um titulo sobre elas quando o mouse do usuário passa por cima da palavra, é importante pra semantica do conteúdo e pra acessibilidade pea leitores de tela, colocamos a tag em volta da palavra, e inline atribuimos um titulo pra ela, pra exemplificar, veja o significado da abreviação <abbr title="World Wide Web">WWW</abbr></p>
+
+    <h2>Tags &lt;bdo&gt;</h2>
+    <p>Essa tag é usada pra sobesvrever a direção de leitura de uma palavra ou texto, precisamos definir a direção de leitura inline nessa tag, dir=rtl pra colocarmos da direita pra esquerda e dir=ltr da esquerda pra direita, pra exemplificar, todo o texto depois de ":" estará invertido: <bdo dir="rtl">Esse texto está de trás pra frente</bdo></p>
+
+    <h2>Tag &lt;code&gt;</h2>
+    <p>É uma tag que serve pra indicar que o texto ali inserido faz parte de um código de computador, o conteúdo é nostrado de forma monoespaçada, ou seja, todas as letras com o mesmo espaço, exemplo: <code>selectAll()</code>, <code>push()</code>.</p>
+
+    <h2>Tag &lt;q&gt;</h2>
+    <p>Essa tag serve pra citações simples, visualmente ela só adiciona aspas, mas, em html tudo e semantico, tudo tem seu sentido, ao enveloparmos uma palavra com essa tag, dizemos ao navegador exatamente do que se trata: uma citação de um terceiro que agora faz parte do seu texto, para exemplo, uma frase do seriado Chaves: <q>Eu prefiro morrer do que perder a vida</q>.</p>
+
+    <h2>Tag &lt;blockquote&gt;</h2>
+    <p>Essa tag serve pra citações grandes de texto, visualmente ela aparece separada do texto normal, mas semanticamente ela explica pro navegador que aquilo é uma citação em bloco, usando o atributo cite inline nessa tag, podemos colocar a fonte dessa citação, como um link para site, embora visualmente não tenha efeito nenhum, para o naegador e mecanismos de busca, isso importa, exemplo:, segundo Maria Julia Paes da Silva, em seu livro: Qual o tempo do cuidado?
+        <blockquote cite="https://www.pensador.com/autor/maria_julia_paes_de_silva/">O valor das coisas não está no tempo que elas duram, mas na intensidade com que acontecem. Por isso existem momentos inesquecíveis, coisas inexplicáveis e pessoas incomparáveis.</blockquote>
+    </p>
+
+</body>
+</html>

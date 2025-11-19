@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <p>Primeiro adicionamos a tag img, depois, se for nossa intenção exibir uma imagem diferente dependendo do tamanho da tela, envelopamos a tag img com a tag picture, a tag img precisa ser a última linha dentro da picture, ela é a imagem a ser exibida por padrão, ela precisa ser a maior ou a menor, depois colocamos, por meio da tag source, as outras imagens, se nossa primeira imagem foi a maior, seguimos botando imagens na ordem decrescente, com as maiores sempre ficando embaixo, se a imagem da img for a menor, fazemos em ordem decrescente, com as menores sempre ficando abaixo</p>
+    <p>Dentro da tag source, precisamos definir a largura minima ou maxima do tamanho da tela para que aquela imagem seja colocada, isso vem no atributo media="min ou max-width: tamanho desejado", precisamos por a fonte do diretório da imagem com o atributo srcset e o tipo da imagem com o atributo type</p>
+
+    <picture>
+        <source media="(min-width:1000px)" srcset="imagens/foto-g.png">
+        <source media="(min-width: 700px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-p.png" alt="foto adaptavel">
+    </picture>
+</body>
+</html>

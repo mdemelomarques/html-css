@@ -1,0 +1,15 @@
+@charset "UTF-08";
+/*usamos o @charset "UTF-08" pra evitar problemas de compatibilidade com acentuações*/
+body{
+            background-color: whitesmoke;
+            font-size: 20px;
+        }
+        
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: gold;
+        }
+        p{
+            font-family: 'cursive', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: black;
+        }

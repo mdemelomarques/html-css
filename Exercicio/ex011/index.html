@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML 5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos Hospedados Localmente</h1>
+    <p>Adicionar videos armazenados localmente é bem fácil, com a tag &lt;video&gt; colocamos uma tag &lt;source&gt; com o caminho do video, é bom ter varias sources para um único video, pra aumentrar a gama de compatilidade, e ter nosso conteúdo exibido em qualquer navegador, assim como em audios, precisamos do atributo <code>controls</code> para criar a aŕea de interação para o usuário, podemos adicionar uma thumb para o video com o atributo <code>poster</code>, tudo inline na tag video</p>
+    <video controls width="560" poster="images/Museu_das_Bandeiras_01.jpg" preload="metadata">
+        <source src="media/meuvideoleve.mp4" type="video/mp4">
+        <source src="media/meuvideopesado.mp4" type="video/mp4">
+        <source src="media/meuvideomedio.mp4" type="video/mp4">
+        <source src="media/meuvideopesado.webm" type="video/webm">
+    </video>
+    <h1>Inserindo videos hospedados externamente</h1>
+    <p>Basta procurar plataformas que tenham essa opçãos, a mais famosa é o youtube, mas temos também vimeo e google drive, geralmente basta clicar em compartilhar e depois em incorporar, eles nos dão o código de incorporação pra jogarmos direto no nosso código html</p>
+    <h2>Video do youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/d_qGO4GrbQM?si=U0lG2u183ldhXh93" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Video do Vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/1126965540?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="XOLO"></iframe>
+</body>
+</html>

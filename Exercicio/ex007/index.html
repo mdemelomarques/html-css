@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Microsoft-Fluentui-Emoji-Flat-Rabbit-Flat.512.png" type="image/x-icon">
+    <title>Links e Âncoras</title>
+</head>
+<body>
+    <h1>Links Externos</h1>
+    <p>Podemos criar uma ancora de lkink em um texto, para isso precisamos envelopar esse texto com a tag &lt;a&gt;,e inline nessa tag, colocamos href="link", href quer dizer:hiperlink reference, no paragrafo abaixo, um exemplo</p>
+    <p>Para acessar o site oficial da W3C <a href="https://www.w3.org/">Clique Aqui</a></p>
+    <p>Infelizmente, ao fazer isso, o site externo sobrescreve o nosso, abrindo na mesma aba dele, pra quaquer link externo, a recomendação é, colocar depois do <code>href="link"</code>, a propriedade <code>target="_blank"</code>, isso quer dizer que o alvo desse link é uma janela em branco, colocamos depois rel="external" pra se referir a esse link como exemplo, no paragrafo abaixo, um exempo disso:</p>
+    <p>Para assistir os melhores animes do momento <a href="https://www.crunchyroll.com/pt-br/" target="_blank" rel="external">Clique Aqui</a></p>
+
+    <h1>Links Internos</h1>
+    <p>Para links internos, não precisamos colocar toda a url, apenas o nome e diretório do documenyo da nossa pagina, como é uma página dentro do nosso próprio site, não precisamos configurar o target se não quisermos, pois poir padrão ela abre na mesma página, mas se quisermos especificar, podemos colocar target="_self", para termos o mesmo efeito e deixar semantico, se o arquivo está na mesma pasta, basta colocarmos o nome em href, se não, colocamos a pasta/nome, colocamos rel=next e rel=previous respeitando a hierarquia das páginas do site, por exemplo: 01 pra 02, rel=next, 02 pra 01, rel=previous, e assim por diante</p>
+    <p><a href="pag02.html" target="_self" rel="next">Clique aqui</a> para ir para a nossa segunda página</p>
+    <p><a href="pag003/pag003.html" target="_self" rel="next">Clique aqui</a>para ir pra nossa terceira página</p>
+    <p>Para paginas na mesma pasta só precisamos colocar o nome no href=, para páginas em pastas abaixo da nossa, usamos nome da pasta/nome do arquivo no href, se quisermos subir uma pasta, usamos ../nome do arquivo, um ponto para cada repartição a subir, o primeiro ponto representando a própria repartição da página na qual estamos desenvolvendo,adicionamos uma barra a cada dois pontos</p>
+    <h2>Outros tipos de rel=</h2>
+    <p>Temos o rel="nofollow" que diz aos mecanismos de busca pra não atribuir valor ou autoridade pra aquele link, geralmente é usado pra materiais de span e links pagos, pode ser usado pra links comerciais, embora nesses casoso o google recomenda o uso de rel="sponsored"</p>
+
+    <h1>Links para donwloads</h1>
+    <p>O processo para colocar links para downloads é o mesmo que para outros links internos, exceto que precisamos especificar que queremos baixar essa midia, depois do href do link, abrimos outra propriedade chamada download= e colocamos o nome do arquivo corretamente e completo, tem como fazer esse processo colocando o media type do arquivo, que é a sua extensão, a que vemos depois do ponto no final dele, basta colocar type="media type", para saber o média type de um arquivo basta conferir no site <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="external">Iana.org</a></p>
+    <p>Para esse exemplo, vamos colocar um arquivo pdf, <a href="Sem título 1.pdf" type="_self"  download="Sem título 1.pdf">Baixe Aqui</a></p>
+
+</body>
+</html>

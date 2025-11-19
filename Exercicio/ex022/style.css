@@ -1,0 +1,23 @@
+@charset "UTF-08";
+
+body{
+    background-color: bisque;
+}
+h1{
+    background-color: aquamarine;
+}
+h2{
+    background-color: fuchsia;
+}
+p{
+    background-color: lawngreen;
+}
+#principal{
+    background-color: yellow;
+}
+#paragrafo1{
+    background-color: azure;
+}
+.subtitulo {
+    background-color: blue;
+}
