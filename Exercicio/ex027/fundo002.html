@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 2 De Backgrounds</title>
+    <style>
+        div.repeat{
+            width: 900px;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+        div#padrao{
+            background-image: url(imagens/pattern002.png);
+        }
+        div#semrepeticao{
+            background-image: url(imagens/pattern002.png);
+            background-repeat: no-repeat;
+        }
+        div#eixox{
+            background-image: url(imagens/pattern002.png);
+            background-repeat: repeat-x;
+        }
+        div#eixoy{
+            background-image: url(imagens/pattern002.png);
+            background-repeat: repeat-y;
+        }
+    </style>
+</head>
+<body>
+    <h1>Repetição de imagens</h1>
+    <h2>Repeat(valor padrão)</h2>
+    <div class="repeat" id="padrao">
+    
+    </div>
+    <h2>No Repeat (sem repetição)</h2>
+    <div class="repeat" id="semrepeticao">
+    
+    </div>
+    <h2>Repeat-x (repetição no eixo horizontal)</h2>
+    <div class="repeat" id="eixox">
+    
+    </div>
+    <h2>Repeat-y (repetição no eixo vertical)</h2>
+    <div class="repeat" id="eixoy">
+    
+    </div>
+</body>
+</html>
