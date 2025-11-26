@@ -11,8 +11,17 @@
             width: 600px;
             text-align: center;
         }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            background-color: yellow;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
         thead {
-            background-color: rgba(0, 0, 0, 0.822);
+            background-color: rgb(248, 11, 11);
             border: 1px solid black;
         }
 
@@ -24,7 +33,7 @@
         }
 
         tbody {
-            background-color: greenyellow;
+            background-color: rgba(4, 84, 231, 0.822);
             
         }
 
@@ -33,17 +42,18 @@
             padding: 15px;
         }
         tfoot{
-            background-color: rgba(0, 0, 0, 0.822);
+            background-color: rgb(248, 11, 11);
         }
     </style>
 </head>
 <body>
-    <h1>Os 10 Maiores Goleadores da História</h1>
+    <h1>Tabelas Grandes</h1>
     <table>
+        <caption>Os 10 Maiores goleadores do Futebol</caption>
         <thead>
-            <th>#</th>
-            <th>Jogador</th>
-            <th>Gols</th>
+            <th scope="col">#</th>
+            <th scope="col">Jogador</th>
+            <th scope="col">Gols</th>
         </thead>
         <tbody>
             <tr>
@@ -98,7 +108,7 @@
             </tr>
             <tfoot>
                 <tr>
-                    <th>Gols Somados:</th>
+                    <th scope="row">Gols Somados:</th>
                     <td>7450</td>
                     <td></td>
                 </tr>
