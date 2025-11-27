@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Col e Colgroup</title>
+    <style>
+        table{
+            width: 800px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+
+        td{
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
+            
+        }
+
+        col.colimpar {
+            background-color: rgb(250, 7, 48) ;
+        }
+
+        col.colpar{
+            background-color: rgb(0, 255, 191);
+        }
+    </style>
 </head>
 <body>
-    <h1>Col e Colgroup</h1>
+    <h1>Tabelas em Html</h1>
+    <table>
+        <colgroup>
+            <col class="colimpar">
+            <col class="colpar">
+            <col class="colimpar">
+            <col class="colpar" span="2">
+            <col class="colimpar">
+        </colgroup>
+        <tr>
+            <td>A1
+            <td>B1
+            <td>C1
+            <td>D1
+            <td>E1
+        <tr>
+            <td>A2
+            <td>B2
+            <td>C2
+            <td>D2
+            <td>E2
+        <tr>
+            <td>A3
+            <td>B3
+            <td>C3
+            <td>D3
+            <td>E3
+        <tr>
+            <td>A4
+            <td>B4
+            <td>C4
+            <td>D4
+            <td>E4
+        <tr>
+            <td>A5
+            <td>B5
+            <td>C5
+            <td>D5
+            <td>E5
+        <tr>
+            <td>A6
+            <td>B6
+            <td>C6
+            <td>D6
+            <td>E6
+        <tr>
+            <td>A7
+            <td>B7
+            <td>C7
+            <td>D7
+            <td>E7
+    </table>
 </body>
 </html>
