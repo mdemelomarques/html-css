@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        iframe {
+            width: 90%;
+            height: 400px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Diferentes sites num mesmo Iframe</h1>
+    <p>
+        Podemos fazer com que o destino de um link seja um iframe dentro da nossa página, é só atrelar o nome descrito em name no iframe dentro do target dentro dos links
+    </p>
+    <ul>
+        <li>Clique <a href="https://www.crunchyroll.com" target="frame">para visualizar o site da Crunchyroll</a></li>
+        <li>Clique <a href="https://www.cursoemvideo.com" target="frame">para visualizar o site do Curso em Video</a></li>
+        <li>Clique <a href="https://professorguanabara.github.io/projeto-cordel/" target="frame">para visualizar o site do Cordel Moderno</a></li>
+        <li>Clique <a href="index.html" target="frame">para visualizar nosso próprio site local</a></li>
+    </ul>
+    
+    <iframe name="frame" srcdoc=" <h1>Escolha uma das opções acima <p>Essa Mensagem foi feita usando o atributo srcdoc, nele podemos inseriri códigos html e ele aparece no nosso iframe, é interessante mas não muito prático, seu uso é pontual. <img src='https://atletico.com.br/wp-content/uploads/2014/11/miniatura-facebook.png' alt=''></iframe>
+</body>
+<img src="" alt="">
+</html>
