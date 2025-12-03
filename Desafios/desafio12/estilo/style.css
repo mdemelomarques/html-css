@@ -1,0 +1,15 @@
+@charset "UTF-08";
+
+body {
+    height: 97vh;
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#celular {
+  
+}
+div#celular > img {
+   
+}
