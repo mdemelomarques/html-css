@@ -13,11 +13,18 @@
 </head>
 <body>
     <h1>Meu Primeiro Formulário  </h1>
-    <form method="GET" action="cadastro.php">
-        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
-        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
-        <p><label for="itelefone">Telefone:</label> <input type="tel" name="telefone" id="itelefone"></p>
-        <p><label for="ie-mail">E-Mail:</label> <input type="email" name="e-mail" id="ie-mail"></p>
+    <form method="GET">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="ie-mail">E-Mail:</label>
+                <input type="email" name="e-mail" id="ie-mail" required>
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" required pattern="^[0-9]{4,5}-[0-9]{4}$">
+            </p>
+        </fieldset>
         <input type="submit" value="Enviar">
     </form>
 </body>
