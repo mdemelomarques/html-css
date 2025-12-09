@@ -9,18 +9,49 @@
     <form action="get">
         <fieldset>
             <legend>Sexo</legend>
-            <input type="radio" name="sexo" id="imas" value="M"><label for="imas">Masculino</label><br>
-            <input type="radio" name="sexo" id="ifem" value="F"><label for="ifem">Feminino</label><br>
-            <input type="radio" name="sexo" id="ioutro" value="O"><label for="ioutro">Outro</label><br>
-            <input type="radio" name="sexo" id="indizer" value="ND"><label for="indizer">Prefiro Não Dizer</label><br>
+            <input type="radio" name="sexo" id="imas" value="M">
+            <label for="imas">Masculino</label><br>
+
+            <input type="radio" name="sexo" id="ifem" value="F">
+            <label for="ifem">Feminino</label><br>
+
+            <input type="radio" name="sexo" id="ioutro" value="O">
+            <label for="ioutro">Outro</label><br>
+
+            <input type="radio" name="sexo" id="indizer" value="ND">
+            <label for="indizer">Prefiro Não Dizer</label><br>
         </fieldset>
         <fieldset>
             <legend>Esportes Favoritos</legend>
-            <input type="checkbox" name="basq" id="ibasq"><label for="ibasq">Basquete</label><br>
-            <input type="checkbox" name="fute" id="ifute"><label for="ifute">Futebol</label><br>
-            <input type="checkbox" name="xad" id="ixad"><label for="ixad">Xadrez</label><br>
-            <input type="checkbox" name="corrida" id="icorrida"><label for="icorrida">Corrida</label><br>
-            <input type="checkbox" name="golf" id="igolf"><label for="igolf">Golf</label><br>
+            <input type="checkbox" name="basq" id="ibasq">
+            <label for="ibasq">Basquete</label><br>
+
+            <input type="checkbox" name="fute" id="ifute">
+            <label for="ifute">Futebol</label><br>
+
+            <input type="checkbox" name="xad" id="ixad">
+            <label for="ixad">Xadrez</label><br>
+
+            <input type="checkbox" name="corrida" id="icorrida">
+            <label for="icorrida">Corrida</label><br>
+
+            <input type="checkbox" name="golf" id="igolf">
+            <label for="igolf">Golf</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Cor Favorita:</legend>
+            <input type="color" name="color" id="icolor" value="#00ff00">
+            <label for="icolor"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Barra</legend>
+            <label for="ibarra">Desliza a Barrinha :D</label>
+            <input type="range" name="barra" id="ibarra" min="1" max="10" value="5">
+        </fieldset>
+        <fieldset>
+            <legend>Arquivo</legend>
+            <label for="iarq">Envie Seu Arquivo Aqui:</label>
+            <input type="file" name="arq" id="iarq">
         </fieldset>
         <input type="submit" value="Enviar Dados">
         <input type="reset" value="Limpar Tudo">

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="itimes">Escolha Seu Time Do Coração:</label>
+        <select name="times" id="itimes">
+            <optgroup label="Times de Minas Gerais">
+                <option value="CAM">Atlético Mineiro</option>
+                <option value="CRU">Cruzeiro</option>
+                <option value="AMG">América de Minas Gerais</option>
+                <option value="ATL">Club Atlétic</option>
+                <option value="TOM">Tombense</option>
+            </optgroup>
+            <optgroup label="Times do Rio de Janeiro">
+                <option value="FLA">Flamengo</option>
+                <option value="VAS">Vasco Da Gama</option>
+                <option value="FLU">Fluminense</option>
+                <option value="BOT">Botafogo</option>
+                <option value="VOL">Volta Redonda</option>
+            </optgroup>
+            <optgroup label="Times de São Paulo">
+                <option value="SAO">São Paulo</option>
+                <option value="SAN">Santos</option>
+                <option value="COR">Corinthians</option>
+                <option value="PAL">Palmeiras</option>
+                <option value="POR">Portuguesa</option>
+            </optgroup>
+        </select><br>
+    
+        <label for="itec">Qual Tecnico Você Gostaria de ver em seu Time?</label>
+        <input type="text" name="tec" id="itec" list="listtec">
+        <datalist id="listtec">
+            <option> Jorge Sampaoli</option>
+            <option>Renato Gaúcho</option>
+            <option>Abel Braga</option>
+            <option>Rogério Ceni</option>
+            <option>Fernando Diniz</option>
+
+        </datalist>
+        <br>
+        <label for="imens">Dê sua opinião sobre o estado atual do seu time:</label>
+        <textarea name="mens" id="imens" cols="20" rows="10"></textarea>
+
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+    
+    
+    </form>
+    
+</body>
+</html>
