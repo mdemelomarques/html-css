@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+img{
+    display: none;
+}
+
+article::after{
+    content: "Tela de Exercicios, versão para imprimir";
+}
