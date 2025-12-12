@@ -1,1 +1,19 @@
 @charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+h1{
+    padding: 10px;
+}
