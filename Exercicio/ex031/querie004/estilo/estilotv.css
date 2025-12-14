@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(../imagens/back-tv.jpg);
+}
+
+img#televisao {
+    display: block;
+    margin: auto;
+}
+
+img#telefone {
+    display: none;
+}
+
+img#televisao{
+    display: block;
+    margin: auto;
+}
+img#tablet{
+    display: none;
+}
+img#desktop{
+    display: none;
+}
+img#impressora {
+    display: none;
+}

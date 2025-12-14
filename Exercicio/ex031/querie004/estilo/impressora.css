@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../imagens/back-print.jpg);
+}
+
+img#telefone {
+    display: none;
+}
+
+img#televisao{
+    display: none;
+}
+img#tablet{
+    display: none;
+}
+img#desktop{
+    display: none;
+}
+img#impressora {
+    display: block;
+    margin: auto;
+}
