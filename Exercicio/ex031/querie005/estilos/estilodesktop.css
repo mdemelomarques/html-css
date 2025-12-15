@@ -5,12 +5,20 @@ article {
     line-height: 1.3em;
 }
 
+span#burguer {
+    display: none;
+}
+
+nav {
+    display: inline-block;
+}
+
 nav#menu ul {text-align: left;
 }
 
 nav#menu li {
     display: inline-block;
-    background-color: yellowgreen;
+    background-color: rgb(13, 214, 13);
     padding: 7px;
     color: black;
     margin-top: 10px;

@@ -6,12 +6,20 @@ body{
     font-size: 1.2em;
 }
 
+span#burguer {
+    display: none;
+}
+
+nav {
+    display: block;
+}
+
 nav#menu ul {text-align: left;
 }
 
 nav#menu li {
     display: inline-block;
-    background-color: yellowgreen;
+    background-color: rgb(13, 214, 13);
     padding: 7px;
     color: black;
     margin-top: 10px;
