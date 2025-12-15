@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+article {
+    width: 650px;
+    line-height: 1.3em;
+}
+
+nav#menu ul {text-align: left;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: yellowgreen;
+    padding: 7px;
+    color: black;
+    margin-top: 10px;
+    font-size: 1em;
+    
+}

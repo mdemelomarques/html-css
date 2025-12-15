@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+
+body{
+    font-size: 1.2em;
+}
+
+nav#menu ul {text-align: left;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: yellowgreen;
+    padding: 7px;
+    color: black;
+    margin-top: 10px;
+    font-size: 0.8em;
+    
+}
