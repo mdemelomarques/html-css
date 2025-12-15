@@ -4,6 +4,10 @@ body{
     background-image: url(../imagens/back-tv.jpg);
 }
 
+main{
+    width: 750px;
+}
+
 img#televisao {
     display: block;
     margin: auto;

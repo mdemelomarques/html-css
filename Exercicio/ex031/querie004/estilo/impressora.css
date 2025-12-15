@@ -4,6 +4,24 @@ body {
     background-image: url(../imagens/back-print.jpg);
 }
 
+main{
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 90vw;
+    
+}
+
+main::after{
+    text-align: center;
+    font-size: 1.2em;
+    content: "Site Feito Para exercicio do Curso em Video";
+}
+
+h1 {
+    text-shadow: none;
+    color: black;
+}
+
 img#telefone {
     display: none;
 }
