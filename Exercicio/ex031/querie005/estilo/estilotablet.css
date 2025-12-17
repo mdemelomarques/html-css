@@ -11,7 +11,7 @@ span#burguer {
 }
 
 nav {
-    display: block;
+    display: block!important;
 }
 
 nav#menu ul {text-align: left;

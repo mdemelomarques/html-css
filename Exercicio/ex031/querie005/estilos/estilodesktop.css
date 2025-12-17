@@ -10,7 +10,7 @@ span#burguer {
 }
 
 nav {
-    display: inline-block;
+    display:block!important;
 }
 
 nav#menu ul {text-align: left;
