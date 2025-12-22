@@ -23,14 +23,24 @@ section#login {
     background-color: #E6590C;
     text-align: center;
     width: 250px;
-    height: 500px;
+    height: 525px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px black;
+    transform: translate(-50%,-50%); 
+}
+
+section#login h1 {
+    margin-top: 10px;
+}
+
+section#login p {
+    font-size: 0.8em;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 section#login > div#imagem {
@@ -49,4 +59,76 @@ section#login > div#formulario {
     display: block;
     margin: 10px;
     border-radius: 10px;
+}
+
+
+
+div.campo{
+    background-color: #2E5C5B;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+   
+   
+}
+
+div.campo > input {
+    background-color: rgb(190, 182, 182);
+    width: calc(100% - 34px);
+    height: 87%;
+    border-radius: 10px;
+    border: none;
+    transform: translateY(-10px);
+    
+}
+
+div.campo > input:focus-within {
+    background-color: whitesmoke;
+}
+
+div.campo  span{
+    width: 30px;
+    font-size: 2em;
+    color: white;
+}
+
+form > input[type=submit] {
+    width: 100%;
+    background-color: #2E5C5B;
+    border: none;
+    height: 35px;
+    display: block;
+    border-radius: 7px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: whitesmoke;
+    color: #2E5C5B;
+    border: 1px solid #2E5C5B;
+}
+
+a.botao {
+    width: 100%;
+    height: 35px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #2E5C5B;
+    border: 1px solid #2E5C5B;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+
+
+a.botao:hover {
+    background-color: #2E5C5B;
+    color: whitesmoke;
 }

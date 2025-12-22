@@ -18,3 +18,7 @@ section#login > div#formulario {
     height: 80%;
     margin: 5%;
 }
+
+section#login p {
+    font-size: 1.2em;}
+
