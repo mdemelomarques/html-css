@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#pai {
+            background-color: green;
+            display: flex;
+            text-align: center;
+            flex-flow: row nowrap;
+            height: 200px;
+        }
+
+        div.filho{
+            background-color: greenyellow;
+            border: 1px solid black;
+            padding: 25px;
+            
+        }
+
+        div#i1{
+            order:5 ;
+            align-self: center;
+        }
+
+        div#i2{
+            order: -3;
+            align-self: stretch;
+        }
+
+        div#i3{
+            order: 7;
+            align-self: flex-start;
+        }
+
+        div#i4{
+            order:0 ;
+            align-self: center;
+        }
+
+        div#i5{
+            order: 1;
+            align-self: flex-end;
+        }
+
+        div#i6{
+            order: 8;
+            align-self: flex-end;
+        }
+
+        div#i7{
+            order: 3;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="pai">
+        <div class="filho" id="i1">1</div>
+        <div class="filho" id="i2">2</div>
+        <div class="filho" id="i3">3</div>
+        <div class="filho" id="i4">4</div>
+        <div class="filho" id="i5">5</div>
+        <div class="filho" id="i6">6</div>
+        <div class="filho" id="i7">7</div>
+    </div>
+</body>
+</html>
