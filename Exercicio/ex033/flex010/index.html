@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#pai {
+            background-color: green;
+            display: flex;
+            text-align: center;
+            flex-flow: row nowrap;
+        }
+
+        div.filho{
+            background-color: greenyellow;
+            border: 1px solid black;
+            
+        }
+        div#filho1{
+            flex: 8 1 200px;
+        }
+
+        div#filho2{
+            flex: 1 5 200px;
+
+        }
+
+
+        div#filho3{
+            flex: 1 8 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="pai">
+        <div class="filho" id="filho1">1</div>
+        <div class="filho" id="filho2">2</div>
+        <div class="filho" id="filho3">3</div>
+        
+    </div>
+</body>
+</html>

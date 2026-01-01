@@ -1,0 +1,22 @@
+@charset "UTF-08";
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+}
+    
+
+header h1 {
+    text-align: left;
+    flex: 1 0 auto;
+    margin-left: 10px;
+}
+
+ul{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+li {
+    flex: 0 0 auto;
+}
