@@ -9,22 +9,39 @@
             background-color: green;
             display: flex;
             text-align: center;
+            flex-flow: row nowrap;
         }
 
         div.filho{
             background-color: greenyellow;
             border: 1px solid black;
-            flex: auto;
+            flex-basis: 200px;
+        }
+        div#filho1{
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+
+        div#filho2{
+            flex-grow: 1;
+            flex-shrink: 2;
+
+        }
+
+
+        div#filho3{
+            flex-grow: 1;
+            flex-shrink: 4;
+
         }
     </style>
 </head>
 <body>
     <div id="pai">
-        <div class="filho">1</div>
-        <div class="filho">2</div>
-        <div class="filho">3</div>
-        <div class="filho">4</div>
-        <div class="filho">5</div>
+        <div class="filho" id="filho1">1</div>
+        <div class="filho" id="filho2">2</div>
+        <div class="filho" id="filho3">3</div>
+        
     </div>
 </body>
 </html>
