@@ -45,6 +45,7 @@ header a {
 header li:hover{
     background-color: #AEA1D9;
     color: black;
+    transition: 0.5s;
 }
 
 main{
