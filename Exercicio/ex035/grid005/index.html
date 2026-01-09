@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        div.pai {
+            border: 3px solid rgb(50, 205, 205);
+            display: grid;
+            grid-template: repeat(7, 100px) / repeat(5, 1fr);
+            gap: 5px;
+            
+    
+        }
+
+        div.caixa1 {
+            background-color: lightgreen;
+            grid-row-start: 1;
+            grid-row-end:2;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            
+
+        }
+        div.caixa2 {
+            background-color: yellowgreen;
+            grid-row-start: 2;
+            grid-row-end:4;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        div.caixa3{
+            background-color: yellow;
+            grid-row-start: 2;
+            grid-row-end:4;
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
+        div.caixa4 {
+            background-color: rgb(6, 255, 193);
+            grid-row-start: 1;
+            grid-row-end:-1;
+            grid-column-start: 5;
+            grid-column-end: 6;
+        }
+        div.caixa5{
+            background-color: blueviolet;
+            grid-row-start: 4;
+            grid-row-end:8;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        div.caixa6{
+            background-color: lightpink;
+            grid-row-start: 4;
+            grid-row-end:8;
+            grid-column-start: 2;
+            grid-column-end: 5;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="caixa1">Caixa 1</div>
+        <div class="caixa2">Caixa 2</div>
+        <div class="caixa3">Caixa 3</div>
+        <div class="caixa4">Caixa 4</div>
+        <div class="caixa5">Caixa 5</div>
+        <div class="caixa6">Caixa 6</div>
+        
+    </div>
+    
+</body>
+</html>

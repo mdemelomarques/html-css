@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        div.container{
+            border: 3px solid chartreuse;
+            height: 600px;
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            grid-template-rows: 150px 150px 150px;
+            align-items: stretch;
+            justify-items: stretch;
+            align-content: space-evenly;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        div.filho{
+            border: 2px solid chocolate;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="filho">a</div>
+        <div class="filho">b</div>
+        <div class="filho">c</div>
+        <div class="filho">d</div>
+        <div class="filho">e</div>
+        <div class="filho">f</div>
+        <div class="filho">g</div>
+        <div class="filho">h</div>
+        <div class="filho">i</div>
+    </div>
+    
+</body>
+</html>
